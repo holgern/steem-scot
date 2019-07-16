@@ -79,7 +79,6 @@ if __name__ == '__main__':
         entry_points={
             'console_scripts': [
                 'scot_by_votes=steemscot.scot:main',
-                'scot_by_comment=steemscot.scot_by_comment:main'
             ],
         },
         include_package_data=True,
